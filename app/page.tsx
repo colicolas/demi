@@ -10,7 +10,7 @@ export default function Home() {
             <TypewriterDemi />
           </h1>
           <p className="text-xl text-slate-200 w-8/12 mt-8">
-            Hi, I'm <span className="text-violet-400">Demi</span>. I like to space out and think about random things. Sometimes those thoughts turn into ideas turn into writing: a page in my diary, a speech, or even a web application. Welcome to my space online, where everything in my brain comes together.
+            Hi, I&apos;m <span className="text-violet-400">Demi</span>. I like to space out and think about random things. Sometimes those thoughts turn into ideas turn into writing: a page in my diary, a speech, or even a web application. Welcome to my space online, where everything in my brain comes together.
             <br /><br />
             <Link href="/about" className="text-lg text-violet-200 italic transition duration-200 hover:text-violet-300">More about me...</Link>
           </p>
@@ -32,7 +32,7 @@ export default function Home() {
             <Link href="/thoughts" className="transition duration-300 hover:text-slate-500">Messy Thoughts</Link>
           </h2>
           <p className="text-xl text-slate-200">
-            Basically a blog. What's <span className="text-violet-300">on my mind</span> lately (usually a lot).
+            Basically a blog. What&apos;s <span className="text-violet-300">on my mind</span> lately (usually a lot).
           </p>
           {/* Add your blog post previews or links here */}
         </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <Link href="/projects" className="transition duration-300 hover:text-slate-500">Projects</Link>
           </h2>
           <p className="text-xl text-slate-200">
-            Here are some of the apps and projects I've worked on. Check them out to see what I've been building.
+            Here are some of the apps and projects I&apos;ve worked on. Check them out to see what I've been building.
           </p>
           {/* Add your project previews or links here */}
         </div>
