@@ -20,3 +20,6 @@ yarn-error.log*
 
 # Optional eslint cache
 .eslintcache
+
+# environment variables
+.env.local
