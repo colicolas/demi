@@ -1,5 +1,5 @@
 ---
-title: "Article 1"
+title: "Article 1 (for testing)"
 date: "2024-06-02"
 description: "This is a sample article."
 category: "personal"
