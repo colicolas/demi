@@ -10,7 +10,7 @@ const Filter: React.FC<FilterProps> = ({ categoryColors }) => {
   const router = useRouter();
 
   const handleCategoryChange = (category: string) => {
-    router.push(`/thoughts?category=${category}`, undefined, { shallow: true });
+    router.push(`/thoughts?category=${category}`);
   };
 
   return (
