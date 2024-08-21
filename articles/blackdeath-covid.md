@@ -2,7 +2,7 @@
 title: "'Can America Benefit from Covid?': A Discussion"
 date: "2024-08-20 7:56PM" 
 description: "an article we read in AP European History"
-category: "personal"
+category: "society"
 ---
 
 Today, we were assigned to read and annotate an article written by Jacob Soll titled ["Can America Benefit from Covid? Ask 14th-Century Florence (POLITICO, 07/25/2020)"](https://www.politico.com/news/magazine/2020/07/25/can-america-benefit-from-covid-ask-14th-century-florence-381130). Soll compares the coronavirus pandemic of 21st century to the Black Death in the Late Middle Ages of European History. He believes that we should look to Northern Italy, specifically Florence, as an example, because of how they recovered from the plague.
