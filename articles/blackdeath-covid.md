@@ -19,7 +19,7 @@ Talent, much like the plague, isn't racist or elitist or classist: geniuses can 
 Soll argues in his article that America is moving in the exact opposite direction after coronavirus: "But the signs, right now, are that America at least is heading the wrong way. As the economy crumbles, low- and middle-income workers are being laid off, while at the other end the stock market has soared and the net worth of wealthy Americans continues to grow. Small businesses are shutting down; Amazon has never been more valuable. Many privileged Americans are profiting and staying safe, while economically insecure Americans walk into risky jobs, and young people, the poor and immigrants—a natural talent pool to help build the future—are increasingly blocked from even entering the country."
 
 ## My Thoughts --- An Honest Answer
-So, could America have benefited from Covid? I don't think so.
+So, could America have benefited from Covid as Florence did from the Black Death? I don't think so.
 
 To start, one cannot simply compare the Black Death to the coronavirus. The Black Death wiped out a third of Europe's population, an estimated 75-200 million people. The coronavirus has killed around 7 million, a number that, while still saddening, pales in comparison. Over half of Florence's population died, allowing for the poor to come in and fill the holes. In America, the extent of change that occurred, for most people, came in the form of a cramped living lifestyle (quarantine) or pertained to the economy (job layoffs, rising prices, and more).
 
