@@ -7,7 +7,7 @@ category: "emotions"
 
 I woke up in cold sweat.
 
-Love is such an elusive and abstract concept. Yet these four letters hold so much power over all of us. So much so that there is a whole literary genre in its name. So much so that []. So much so that some commit unspeakable crimes in the name of love. But how can a word that connotes warmth and passion and happiness bring some of us to go to such lengths to destroy others?
+Love is such an elusive and abstract concept. Yet these four letters hold so much power over all of us. So much so that there is a whole literary genre in its name. So much so that it is able to overpower rational thinking. So much so that some commit unspeakable crimes in the name of love. But how can a word that connotes warmth and passion and happiness bring some of us to go to such lengths to destroy others?
 
 ## Questioning
 
