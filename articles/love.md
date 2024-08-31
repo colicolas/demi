@@ -1,7 +1,7 @@
 ---
 title: "All Things: Love"
 date: "2024-08-31 10:32AM" 
-description: "do the romance novels speak the truth"
+description: "do the romance novels speak the truth?"
 category: "emotions"
 ---
 
