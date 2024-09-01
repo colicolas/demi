@@ -14,7 +14,7 @@ export default async function ArticlePage({ params }: ArticleProps) {
         <h1 className="text-6xl font-bold mb-4 text-slate-200 ml-20">{articleData.title}</h1>
         <p className="text-slate-400 text-lg ml-20">{articleData.date} | Demi Zheng</p>
         <p className="text-slate-400 text-md mt-8 ml-20">{articleData.description}</p>
-        <div className="text-slate-200 mt-8 text-xl markdown-content w-10/12 ml-20 select-none" dangerouslySetInnerHTML={{ __html: articleData.contentHtml }} />
+        <div className="text-slate-200 mt-8 text-xl markdown-content w-10/12 ml-20" dangerouslySetInnerHTML={{ __html: articleData.contentHtml }} />
       </div>
       <div className="mt-12 ml-20">
         <Link href="/thoughts" className="text-indigo-300 hover:underline ml-20">← Back to thoughts
