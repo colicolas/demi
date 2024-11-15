@@ -24,6 +24,14 @@ interface Article {
   category: string;
 }
 
+
+function calculateReadingTime(content: string) {
+  const wordsPerMinute = 200; // Average reading speed
+  const words = content.split(/\s+/).length; // Split by whitespace to count words
+  const minutes = Math.ceil(words / wordsPerMinute); // Round up to nearest minute
+  return minutes;
+}
+
 export default async function ThoughtsPage({ searchParams }: { searchParams: { category?: string } }) {
   const articles = getSortedArticlesData();
 
@@ -37,17 +45,20 @@ export default async function ThoughtsPage({ searchParams }: { searchParams: { c
 
       <div className="mt-10 w-3/5">
         {articles.length > 0 ? (
-          articles.map(({ id, date, title, description, category }) => (
-            <BlogCard
-              key={id}
-              id={id}
-              date={date}
-              title={title}
-              category={category}
-              readingTime="9 min read" // Replace with actual reading time if available
-              categoryColor={categoryColors[category]}
-            />
-          ))
+          articles.map(({ id, date, title, description, category, content }) => {
+            const readingTime = calculateReadingTime(content);
+            return (
+              <BlogCard
+                key={id}
+                id={id}
+                date={date}
+                title={title}
+                category={category}
+                readingTime={`${readingTime} min read`}
+                categoryColor={categoryColors[category]}
+              />
+            );
+          })
         ) : (
           <p className="text-slate-200 ml-20">None yet :) check back later!</p>
         )}
