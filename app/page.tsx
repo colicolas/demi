@@ -3,7 +3,7 @@ import TypewriterDemi from '@/components/TypewriterDemi';
 import Link from 'next/link';
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen p-8">
+    <div className="bg-black min-h-screen p-8 noto">
       <div className="flex mt-20 ml-20">
         <div className="mr-10 ml-20 w-7/12">
           <h1 className="text-6xl font-bold mb-4">

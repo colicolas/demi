@@ -6,39 +6,36 @@
   font-family: 'Noto Serif JP', serif;
 }
 
-/*:root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  /* Light mode colors */
+  --markdown-text-color: #374151; /* Gray-700 */
+  --markdown-link-color: #2563eb; /* Blue-600 */
+  --markdown-heading-color: #1f2937; /* Gray-800 */
+  --markdown-blockquote-border: #d1d5db; /* Gray-300 */
+  --markdown-blockquote-text: #6b7280; /* Gray-500 */
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-  }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    --markdown-text-color: #e5e7eb; /* Slate-200 
+    --markdown-link-color: #3b82f6; /* Indigo-500 
+    --markdown-heading-color: #ffffff; /* White 
+    --markdown-blockquote-border: #9ca3af; /* Gay-400 
+    --markdown-blockquote-text: #9ca3af; /* Gray-400 
+  }
 }*/
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-/* Add styles for Markdown content */
+/* Markdown Content Styles */
 .markdown-content {
-  color: #e5e7eb; /* Slate-200 color */
+  color: var(--markdown-text-color);
   line-height: 1.6;
 }
 
@@ -48,6 +45,7 @@ body {
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: var(--markdown-heading-color);
 }
 
 .markdown-content h2 {
@@ -56,6 +54,7 @@ body {
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: var(--markdown-heading-color);
 }
 
 .markdown-content h3 {
@@ -64,15 +63,17 @@ body {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  color: var(--markdown-heading-color);
 }
 
 .markdown-content p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 .markdown-content a {
-  color: #3b82f6; /* Indigo-500 color */
+  color: var(--markdown-link-color);
   text-decoration: underline;
 }
 
@@ -80,20 +81,22 @@ body {
   list-style-type: disc;
   padding-left: 2rem;
   margin-top: 1rem;
+  font-size:1.1rem;
   margin-bottom: 1rem;
 }
 
 .markdown-content ol {
   list-style-type: decimal;
   padding-left: 2rem;
+  font-size:1.1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .markdown-content blockquote {
-  border-left: 4px solid #9ca3af; /* Gray-400 color */
+  border-left: 4px solid var(--markdown-blockquote-border);
   padding-left: 1rem;
-  color: #9ca3af; /* Gray-400 color */
+  color: var(--markdown-blockquote-text);
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: italic;
