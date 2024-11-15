@@ -1,6 +1,6 @@
 ---
 title: "'Can America Benefit from Covid?': A Discussion"
-date: "2024-08-20 7:56PM" 
+date: "AUG 20, 2024" 
 description: "an article we read in AP European History"
 category: "society"
 ---

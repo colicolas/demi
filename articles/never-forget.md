@@ -1,6 +1,6 @@
 ---
 title: "Never Forget"
-date: "2024-09-04 7:54PM"
+date: "AUG 04, 2024"
 description: "and the perils of doing so"
 category: "society"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "只是希望莫一天能自己开心一下"
-date: "2024-07-04 12:11PM"
+date: "JUL 04, 2024"
 description: "可老天爷好像不太喜欢我"
 category: "hobbies"
 ---

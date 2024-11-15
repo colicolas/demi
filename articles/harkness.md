@@ -1,6 +1,6 @@
 ---
 title: "Harkness Discussion: A Discussion"
-date: "2024-08-22 6:32PM" 
+date: "AUG 22, 2024" 
 description: "a learning method"
 category: "school"
 ---

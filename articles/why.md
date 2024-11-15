@@ -1,6 +1,6 @@
 ---
 title: "Why I created this"
-date: "2024-06-22 1:14AM"
+date: "JUN 22, 2024"
 description: "the motivation behind the site"
 category: "personal"
 ---
