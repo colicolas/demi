@@ -40,7 +40,7 @@
 }
 
 .markdown-content h1 {
-  font-size: 2.25rem; /* 36px */
+  font-size: 2rem; /* 36px */
   line-height: 2.5rem; /* 40px */
   font-weight: 700;
   margin-top: 2rem;
@@ -100,4 +100,44 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-style: italic;
+}
+
+.markdown-content pre {
+  background-color: #ebf8ff; /* blue-50 */
+  border: 1px solid #bfdbfe; /* blue-200 */
+  border-radius: 0.375rem; /* semi-rounded corners */
+  padding: 1rem;
+  overflow-x: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-content code {
+  font-family: 'Source Code Pro', monospace;
+  background-color: #f1f5f9; /* slate-100 */
+  color: #1e40af; /* blue-900 */
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+.markdown-content pre code {
+  background-color: transparent; /* Inherit from pre */
+  padding: 0; /* Remove extra padding */
+}
+
+.language-fortran {
+  color: #9c4221; /* Red-700 for keywords */
+}
+
+.language-javascript,
+.language-typescript {
+  color: #b7791f; /* Yellow-700 for keywords */
+}
+
+.language-html {
+  color: #276749; /* Green-700 for tags */
+}
+
+.language-css {
+  color: #065f46; /* Teal-800 for properties */
 }
