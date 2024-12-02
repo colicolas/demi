@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import 'prismjs';
+import 'prismjs/themes/prism-tomorrow.css';
+import 'prismjs/components/prism-fortran';
+import 'prismjs/components/prism-javascript';
+import 'prismjs/components/prism-css';
 
 const inter = Inter({ subsets: ["latin"] });
 

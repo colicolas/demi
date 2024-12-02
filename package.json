@@ -13,6 +13,7 @@
     "firebase": "^10.12.2",
     "gray-matter": "^4.0.3",
     "next": "^14.2.18",
+    "prismjs": "^1.29.0",
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",

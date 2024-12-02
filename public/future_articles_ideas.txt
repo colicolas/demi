@@ -1,49 +1,22 @@
-JCL WEBSITE:
-- get photos and make a video for the media page
-    - media page has:
-      - documentation of events & activities
-      - photo of the month stuff
-      - newsletters/Eureka editions
-      - scrapbook
-- compile contests/stuff for 'Testing' section
-- compile guides and stuff for 'Certamen' section
-- make the contact page
-- optimizations
-    - add metadata
-    - screenreader stuff
-    - mobile & window resize stuff
-    - calendar add buttons that let you jump to any date & to 'today'
-    - cache (?)
+articles:
+- Love is Not Spontaneous
+- beyond civility: consumerism
+- beyond civility: aesthetics
+- Fall of the Gods
+- Stoicism and the End of History
+- Jaded
 
-school stuff:
-2. CS Paper
+projects:
+- certamen
+- personal/informational websites
+- legit
+- harkerdev stuff: swapnshare
+- beyond civility
+- classics for kids
 
-opinion pieces/informative/oratory worthy:
-1. Consumerism Stuff
-2. Never Forget (the Elderly)
-3. Stoicism/End of History
-4. On Climate Change
-
-Creative Writing:
-1. Short Stories
-2. Personal Narrative
-
-
-Schedule (which ones I'm writing first):
-1. Harkness Discussion - DONE
-2. Consumerism Stuff - tmr
-3. Stoicism/End of History (ORATORY!!!) - outline/idea tmr, research tmr, finish
-writing by next week
-    - 8/30: finish research/outline + get quotes
-    - 9/8: finish rough draft 1
-            - point 1: 9/1
-            - point 2: 9/3 (end of class - 3pm)
-            - point 3: 9/5 (during class/end of day)
-            - intro/conclusion: 9/7
-            - revise + edit + clean up: 9/8
-    - 9/15: revise + edit + get it checked over by other people (peer
-      review) + finalize
-    - 9/27: memorize
-4. Never Forget - finish by next week
-5. At Least One Short Story - finish by next week
-
+stuff for the website:
+- footnotes
+- table of contents
+- sort the dates properly lol
+- embedded html works (it does not rn...)
+- dark mode...

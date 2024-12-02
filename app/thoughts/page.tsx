@@ -39,7 +39,7 @@ export default async function ThoughtsPage({ searchParams }: { searchParams: { c
     <div className="bg-white min-h-screen p-8 flex flex-col noto items-center">
       <TopBar />
       <div className="mt-20 items-center">
-        <h1 className="text-5xl font-bold text-center mb-4 text-slate-700">Messy Thoughts</h1>
+        <h1 className="text-5xl font-bold text-center mb-4 text-slate-700">Beyond Civility</h1>
         <p className="text-xl text-center mb-4 text-slate-400"> the game is to guess what i was supposed to be doing </p>
       </div>
 
