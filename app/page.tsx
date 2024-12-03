@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className="mt-12 ml-20">
           <h2 className="text-4xl font-bold text-slate-400 mb-4">
-            <Link href="/projects" className="transition duration-300 hover:text-slate-500">Projects</Link>
+            <Link href="/projects" className="transition duration-300 hover:text-slate-500">Project Journals</Link>
           </h2>
           <p className="text-xl text-slate-200">
             Here are some of the apps and projects I&apos;ve worked on. Check them out to see what I've been building.
