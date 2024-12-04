@@ -3,10 +3,42 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { parse } from 'date-fns';
 
+const DATE_FORMAT = 'MMM dd, yyyy'; // Your date format
 const articlesDirectory = path.join(process.cwd(), 'articles');
 
 export function getSortedArticlesData() {
+  const fileNames = fs.readdirSync(articlesDirectory);
+
+  const allArticlesData = fileNames.map((fileName) => {
+    const id = fileName.replace(/\.md$/, ''); // Remove ".md" from the file name
+    const fullPath = path.join(articlesDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, 'utf8');
+
+    // Use gray-matter to parse the front matter and content of the markdown file
+    const { data, content } = matter(fileContents);
+
+    return {
+      id,
+      date: data.date,
+      title: data.title,
+      description: data.description,
+      category: data.category,
+      content,
+    };
+  });
+
+  // Sort articles by date (newest first)
+  const sortedArticles = allArticlesData.sort((a, b) => {
+    const dateA = parse(a.date, DATE_FORMAT, new Date());
+    const dateB = parse(b.date, DATE_FORMAT, new Date());
+    return dateB.getTime() - dateA.getTime(); // Descending order
+  });
+
+  return sortedArticles;
+}
+/*export function getSortedArticlesData() {
   const fileNames = fs.readdirSync(articlesDirectory);
   const allArticlesData = fileNames.map((fileName) => {
     const id = fileName.replace(/\.md$/, ''); // Remove ".md" from the file name
@@ -27,31 +59,6 @@ export function getSortedArticlesData() {
   });
 
   return allArticlesData;
-}
-/*export function getSortedArticlesData() {
-  const fileNames = fs.readdirSync(articlesDirectory);
-  const allArticlesData = fileNames.map((fileName) => {
-    const id = fileName.replace(/\.md$/, '');
-
-    const fullPath = path.join(articlesDirectory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-    const matterResult = matter(fileContents);
-
-    return {
-      id,
-      ...matterResult.data as { date: string; title: string; description: string; category: string },
-      content,
-    };
-  });
-
-  return allArticlesData.sort((a, b) => {
-    if (a.date < b.date) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
 }*/
 
 export async function getArticleData(id: string) {

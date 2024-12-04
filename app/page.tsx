@@ -12,8 +12,8 @@ export default function Home() {
           <p className="text-xl text-slate-200 w-8/12 mt-8">
             Hi, I&apos;m <span className="text-violet-400">Demi</span>. I like to space out and think about random things. Sometimes those thoughts turn into ideas turn into writing: a page in my diary, a speech, or even a web application. Welcome to my space online, where everything in my brain comes together.
             <br /><br />
-            <Link href="/about" className="text-lg mr-5 text-violet-200 italic transition duration-200 hover:text-violet-300">More About Me</Link>
-            <Link href="/resume" className="text-lg text-violet-200 italic transition duration-200 hover:text-violet-300">Resume</Link>
+            {/*<Link href="/about" className="text-lg mr-5 text-violet-200 italic transition duration-200 hover:text-violet-300">More About Me</Link>*/}
+            <Link href="/resume" className="text-lg text-violet-200 italic transition duration-200 hover:text-violet-300">>> Resume</Link>
           </p>
         </div>
         <div className="w-80 h-80 rounded-full overflow-hidden">
