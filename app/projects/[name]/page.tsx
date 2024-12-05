@@ -25,10 +25,10 @@ export default async function ProjectPage({ params }: ProjectProps) {
       </div>
 
       {/* Project Content */}
-      <div className="markdown-content-dark mt-20 w-5/12" dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
+      <div className="markdown-content-dark mt-20 w-full md:w-5/12 lg:w-5/12" dangerouslySetInnerHTML={{ __html: projectData.contentHtml }} />
 
       {/* Project Journal */}
-      <div className="mt-12">
+      <div className="mt-12 w-full md:w-5/12 lg:w-5/12">
         <h2 className="text-xl font-bold mb-4">Project Journal</h2>
         <ul className="space-y-2">
           {journalLinks.map((journal) => (

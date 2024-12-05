@@ -10,8 +10,8 @@ image: "/images/certamen-app.png"
 **ROLE:** Founder • Lead Developer
 
 ## Links
-- [Live Site](https://certamen.example.com)
-- [GitHub Repository](https://github.com/demi-zheng/certamen)
+- [Live Site](https://certamen.vercel.app)
+- [GitHub Repository](https://github.com/colicolas/certamen)
 
 ## Tech Stack
 - Next.js

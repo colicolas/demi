@@ -1,25 +1,24 @@
 ---
-title: "Certamen App"
-role: "Lead Developer"
+title: "Legit App"
+role: "Co-developer"
 description: "An interactive web app for students to study and play Latin quizbowl."
-image: "/images/certamen-app.jpg"
+image: "/images/legit-app.png"
 ---
 
-# Certamen App
+# Legit App
 
 ## Role
 Lead Developer
 
 ## Links
-- [Live Site](https://certamen.example.com)
-- [GitHub Repository](https://github.com/demi-zheng/certamen)
+- [Live Site](https://legit-tan.vercel.app)
+- [GitHub Repository](https://github.com/danielzsh/legit)
 
-## Technologies Used
+## Tech Stack
 - Next.js
 - Tailwind CSS
 - TypeScript
 - Firebase
-- Markdown Parsing
 
 ## Project Details
 The Certamen App is an interactive web application designed to make studying for Latin quizbowl both effective and enjoyable. It includes features such as:

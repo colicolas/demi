@@ -1,25 +1,23 @@
 ---
-title: "Certamen App"
-role: "Lead Developer"
-description: "An interactive web app for students to study and play Latin quizbowl."
-image: "/images/certamen-app.jpg"
+title: "Swap&Share"
+role: "Project Lead"
+description: "A community-driven digital textbook exchange platform designed for students at Harker"
+image: "/images/swapnshare-app.png"
 ---
 
-# Certamen App
+# Swap&Share
 
 ## Role
-Lead Developer
+Project Lead • Lead Developer
 
 ## Links
 - [Live Site](https://certamen.example.com)
-- [GitHub Repository](https://github.com/demi-zheng/certamen)
+- [GitHub Repository](https://github.com/HarkerDev/swapnshare)
 
 ## Technologies Used
 - Next.js
 - Tailwind CSS
 - TypeScript
-- Firebase
-- Markdown Parsing
 
 ## Project Details
 The Certamen App is an interactive web application designed to make studying for Latin quizbowl both effective and enjoyable. It includes features such as:

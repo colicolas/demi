@@ -1,25 +1,24 @@
 ---
-title: "Certamen App"
-role: "Lead Developer"
+title: "HarkerJCL Website"
+role: "Webmaster"
 description: "An interactive web app for students to study and play Latin quizbowl."
-image: "/images/certamen-app.jpg"
+image: "/images/harkerjcl-app.png"
 ---
 
-# Certamen App
+# HarkerJCL Website
 
 ## Role
-Lead Developer
+Webmaster
 
 ## Links
-- [Live Site](https://certamen.example.com)
-- [GitHub Repository](https://github.com/demi-zheng/certamen)
+- [Live Site](https://harkerjcl.vercel.app)
+- [GitHub Repository](https://github.com/colicolas/harkerjcl)
 
-## Technologies Used
+## Tech Stack
 - Next.js
 - Tailwind CSS
 - TypeScript
-- Firebase
-- Markdown Parsing
+- Google Calendar API
 
 ## Project Details
 The Certamen App is an interactive web application designed to make studying for Latin quizbowl both effective and enjoyable. It includes features such as:
