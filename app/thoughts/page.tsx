@@ -43,7 +43,7 @@ export default async function ThoughtsPage({ searchParams }: { searchParams: { c
         <p className="text-xl text-center mb-4 text-slate-400"> the game is to guess what i was supposed to be doing </p>
       </div>
 
-      <div className="mt-10 w-3/5">
+      <div className="mt-10 w-full md:w-3/5 lg:w-3/5">
         {articles.length > 0 ? (
           articles.map(({ id, date, title, description, category, content }) => {
             const readingTime = calculateReadingTime(content);

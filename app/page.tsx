@@ -4,16 +4,16 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="bg-black min-h-screen p-8 noto">
-      <div className="flex mt-20 ml-20">
-        <div className="mr-10 ml-20 w-7/12">
-          <h1 className="text-6xl font-bold mb-4">
+      <div className="flex mt-20 md:ml-20 lg:ml-20">
+        <div className="mr-10 ml-1/6 md:ml-20 w-7/12">
+          <h1 className="text-3xl md:text-6xl lg:text-6xl font-bold mb-4">
             <TypewriterDemi />
           </h1>
-          <p className="text-xl text-slate-200 w-8/12 mt-8">
+          <p className="text-xl text-slate-200 w-full md:w-8/12 lg:w-8/12 mt-8">
             Hi, I&apos;m <span className="text-violet-400">Demi</span>. I like to space out and think about random things. Sometimes those thoughts turn into ideas turn into writing: a page in my diary, a speech, or even a web application. Welcome to my space online, where everything in my brain comes together.
             <br /><br />
             {/*<Link href="/about" className="text-lg mr-5 text-violet-200 italic transition duration-200 hover:text-violet-300">More About Me</Link>*/}
-            <Link href="/resume" className="text-lg text-violet-200 italic transition duration-200 hover:text-violet-300">&gt;&gt;Resume</Link>
+            <Link href="/resume" className="text-lg text-violet-200 italic transition duration-200 hover:text-violet-300">&gt;&gt; Resume</Link>
           </p>
         </div>
         <div className="w-80 h-80 rounded-full overflow-hidden">
