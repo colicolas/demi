@@ -4,6 +4,21 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
+
+interface JournalData {
+  title: string;
+  contentHtml: string;
+  [key: string]: any; // Allow other optional front matter fields
+}
+
+
+interface ProjectData {
+  title: string;
+  image: string; // Add other front matter properties as needed
+  contentHtml: string;
+  [key: string]: any; // Allow for additional optional fields
+}
+
 const projectsDirectory = path.join(process.cwd(), 'projects');
 
 // Fetch all projects for the homepage
@@ -24,7 +39,7 @@ export function getSortedProjectsData() {
   });
 }
 
-export async function getProjectData(projectName: string) {
+export async function getProjectData(projectName: string): Promise<ProjectData> {
   const descPath = path.join(projectsDirectory, projectName, 'desc.md');
   const fileContents = fs.readFileSync(descPath, 'utf8');
   const { content, data } = matter(fileContents);
@@ -33,8 +48,10 @@ export async function getProjectData(projectName: string) {
   const contentHtml = processedContent.toString();
 
   return {
-    ...data,
+    title: data.title, // Explicitly extract the title
+    image: data.image, // Explicitly extract the image
     contentHtml,
+    ...data, // Include any other optional fields
   };
 }
 
@@ -55,7 +72,10 @@ export function getProjectJournalLinks(projectName: string) {
   });
 }
 
-export async function getJournalData(projectName: string, journalId: string) {
+export async function getJournalData(
+  projectName: string,
+  journalId: string
+): Promise<JournalData> {
   const journalPath = path.join(projectsDirectory, projectName, `${journalId}.md`);
   const fileContents = fs.readFileSync(journalPath, 'utf8');
   const { content, data } = matter(fileContents);
@@ -64,7 +84,8 @@ export async function getJournalData(projectName: string, journalId: string) {
   const contentHtml = processedContent.toString();
 
   return {
-    ...data,
+    title: data.title, // Explicitly access the `title` property
     contentHtml,
+    ...data, // Include any other front matter fields dynamically
   };
 }

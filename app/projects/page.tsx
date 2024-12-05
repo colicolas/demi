@@ -8,7 +8,7 @@ export default async function ProjectsPage() {
   return (
     <div className="bg-zinc-900 min-h-screen p-8 flex flex-col items-center noto">
       <span className="text-zinc-200"><TopBar /></span>
-      <h1 className="mt-20 items-center text-center text-5xl text-blue-100 font-bold mb-20">My Projects</h1>
+      <h1 className="mt-20 items-center text-center text-5xl text-zinc-200 font-bold mb-12">My Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full gap-3 max-w-6xl">
         {projects.map((project) => (
           <Link key={project.id} href={`/projects/${project.id}`} className="w-full">
