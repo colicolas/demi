@@ -10,25 +10,34 @@ image: "/images/swapnshare-app.png"
 ## Role
 Project Lead • Lead Developer
 
-## Links
-- [Live Site](https://certamen.example.com)
-- [GitHub Repository](https://github.com/HarkerDev/swapnshare)
-
 ## Technologies Used
 - Next.js
 - Tailwind CSS
 - TypeScript
 
 ## Project Details
-The Certamen App is an interactive web application designed to make studying for Latin quizbowl both effective and enjoyable. It includes features such as:
+Swap&Share is a community-driven platform that simplifies textbook sharing and exchange for students at Harker. The app encourages sustainability and community collaboration by providing a seamless interface for listing, browsing, and obtaining textbooks.
 
-- Study sections tailored to different user levels (e.g., MS, HS).
-- Practice quizzes and Certamen-style gameplay.
-- Progress tracking with visual indicators.
+### Features
+1. Textbook Listings
 
-This project was developed using Next.js with the App Router, Tailwind CSS for responsive and modern UI design, and Firebase for user authentication and real-time database management. Markdown files are used to manage content dynamically.
+- Students can create listings for textbooks they no longer need, specifying details like condition, grade, and tags.
+- Listings are displayed in a visually appealing gallery format for easy browsing.
 
-The app is designed to encourage students to practice and improve their Latin skills while having fun.
+2. Search and Filter
+
+- Users can search for textbooks by subject, grade level, or condition.
+- Filters allow users to refine results based on their specific needs (e.g., price range, condition).
+
+3. Token System
+
+- A unique token system rewards users for listing textbooks.
+- Tokens can be used to "purchase" textbooks listed by others, promoting active participation.
+
+4. Secure Authentication
+
+- Integrated with Google Harker accounts for seamless and secure login.
+- Ensures the platform is exclusive to Harker students.
 
 ## Code
-This project is open source and hosted on GitHub. Contributions are welcome! Check it out at [Certamen GitHub Repository](https://github.com/demi-zheng/certamen).
+This project is not currently open source but it is hosted on GitHub.
