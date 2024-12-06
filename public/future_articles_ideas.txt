@@ -1,7 +1,7 @@
 articles:
-- Love is Not Spontaneous
 - beyond civility: consumerism
 - beyond civility: aesthetics
+- Love is Not Spontaneous
 - Fall of the Gods
 - Stoicism and the End of History
 - Jaded
@@ -16,7 +16,7 @@ projects:
 
 stuff for the website:
 - footnotes
+- gloss/works cited!
 - table of contents
-- sort the dates properly lol
 - embedded html works (it does not rn...)
 - dark mode...
