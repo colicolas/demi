@@ -1,6 +1,7 @@
 import { getProjectData, getProjectJournalLinks } from '@/lib/projects';
 import Link from 'next/link';
 import Image from 'next/image';
+import TopBarProjects from '@/components/TopBarProjects';
 
 interface ProjectProps {
   params: { name: string };
@@ -12,6 +13,7 @@ export default async function ProjectPage({ params }: ProjectProps) {
 
   return (
     <div className="bg-zinc-900 text-white items-center justify-items-center min-h-screen p-8">
+      <TopBarProjects />
       {/* Project Image */}
       <div className="flex justify-center mb-8">
         <Image
