@@ -118,7 +118,6 @@ const Resume = () => {
                   role={proj.role}
                   time=""
                   description={proj.description}
-                  link={proj.link}
                 />
               ))}
             </div>
