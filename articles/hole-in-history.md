@@ -44,6 +44,7 @@ So, can we really say "we've changed, sorry, let's move on," if we really have n
 The world is not rosy and perfect. Not everyone is inherently good. That is pretty mindblowing. And while I am not preaching to be wary and cynical of everyone and everything, I am trying to say that these people who commit these crimes exist. They exist, yet we exist to prevent them from carrying out their plans. And the first step always lies in education.
 
 While, obviously, you should educate yourself by doing some reading and whatnot, a lot of the times, real action comes from the governments. The governments need to acknowledge that 
+
 1. this is a problem
 2. they can do things about it
 
